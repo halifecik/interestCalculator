@@ -7,14 +7,14 @@ int main() {
         return 1;
     }
     fprintf(file, "Month,TOTAL\n");
-    double initial_amount = 0;
+    double initial_amount = 100.00;
     double amount = initial_amount;
     double inflated_amount = amount;
     double monthly_increase = 1.05;
     double monthly_addition = 0.00;
     int months = 12;
-    int years = months/12;
-    double yearly_inflation = 1.00;
+    double years = months/12;
+    double yearly_inflation = 1.035; // Average yearly inflation of the US dollar for the past 20 years.
 
     for (int i = 1; i <= months; i++) {
         amount *= monthly_increase;
@@ -31,6 +31,7 @@ int main() {
     double initial_investment = initial_amount + total_contributions;
     double profit_percentage = ((amount - initial_investment) / initial_investment) * 100;
     fprintf(file, "Initial investments:$%.2f\n\n", initial_investment);
+    fprintf(file, "Final Amount:$%.2f\n\n", amount);
     fprintf(file, "Profit percentage after %d months: %.2f%%\n\n", months, profit_percentage);
     fprintf(file, "Adjusted for inflation after %.2f years: $%.2f\n\n", years, inflated_amount);
     profit_percentage = ((inflated_amount - initial_investment) / initial_investment) * 100;
