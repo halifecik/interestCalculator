@@ -99,5 +99,6 @@ int main() {
     printf("\033[1;33m-------------------------------");
     printf("\nData in: %s.csv\nChart in: %s_char.png\n", filename_base, filename_base);
     printf("-------------------------------");
+
     return 0;
 }
