@@ -5,7 +5,7 @@
 
 ---
 
-## 📜 Project Overview
+### 📜 Project Overview
 
 **Profit Calculator** is a simple yet powerful CLI program written in C that simulates compound investment growth over a specified period.  
 It accounts for both interest (growth) and inflation (devaluation) and outputs a clean `.csv` dataset along with a visual chart.  
@@ -13,7 +13,7 @@ It’s ideal for analyzing financial plans!
 
 ---
 
-## ⚙️ Features
+### ⚙️ Features
 
 - 🧾 **Custom currency input** ($ / ₺ / € / etc.)
 - 📈 **Compound interest support** (monthly rate)
@@ -41,22 +41,22 @@ It’s ideal for analyzing financial plans!
 
 ---
 
-## 📦 Build & Run Instructions
+### 📦 Build & Run Instructions
 
-### 🧰 Requirements
+#### 🧰 Requirements
 - GCC compiler
 - Gnuplot installed and in your PATH
 
-### 🔨 Build
+#### 🔨 Build
 
 ```bash
 ./wCurrency
 ```
 
-### 🤫 Upcoming Features
+#### 🤫 Upcoming Features
 
 - API intergration for realtime currency comparison.
 - Running website w/UI for easy of use.
 - Edge Case handling. Since this is *just a work progress*.
 
-## ⭐️ Feel free to drop a star!
+#### ⭐️ Feel free to drop a star!
