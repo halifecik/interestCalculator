@@ -51,7 +51,7 @@ It’s ideal for analyzing financial plans!
 
 Build
 ```bash
-gcc -o wCurrency V2.2.c -lm
+gcc -o wCurrency src/V_2/V2.2.c -lm
 ```
 
 Then Run
