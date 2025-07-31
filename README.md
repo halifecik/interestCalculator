@@ -53,6 +53,8 @@ It’s ideal for analyzing financial plans!
 ./wCurrency
 ```
 
+---
+
 #### 🤫 Upcoming Features
 
 - API intergration for realtime currency comparison.
