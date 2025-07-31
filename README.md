@@ -47,7 +47,7 @@ It’s ideal for analyzing financial plans!
 - GCC compiler
 - Gnuplot installed and in your PATH
 
-#### 🔨 Build
+### 🔨 Build
 
 Build using
 ```bash
