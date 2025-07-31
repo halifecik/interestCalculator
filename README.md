@@ -49,12 +49,12 @@ It’s ideal for analyzing financial plans!
 
 #### 🔨 Build
 
-Build
+Build using
 ```bash
 gcc -o wCurrency src/V_2/V2.2.c -lm
 ```
 
-Then Run
+Run using
 ```bash
 ./wCurrency
 ```
