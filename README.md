@@ -1,4 +1,4 @@
-# 💰 Profit Calculator — Inflation-Aware Investment Simulator
+# 💰 Interest Calculator — Inflation-Aware Investment Simulator
 
 > A terminal-based financial simulation tool that helps you project long-term investments while adjusting for inflation.  
 > Built in C, with CSV and chart output powered by Gnuplot.
@@ -7,7 +7,7 @@
 
 ### 📜 Project Overview
 
-**Profit Calculator** is a simple yet powerful CLI program written in C that simulates compound investment growth over a specified period.  
+**Interest Calculator** is a simple yet powerful CLI program written in C that simulates compound investment growth over a specified period.  
 It accounts for both interest (growth) and inflation (devaluation) and outputs a clean `.csv` dataset along with a visual chart.  
 It’s ideal for analyzing financial plans!
 
