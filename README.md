@@ -64,7 +64,7 @@ Run using
 #### 🤫 Upcoming Features
 
 - API intergration for realtime currency comparison.
-- Running website w/UI for easy of use.
+- Running website w/UI for ease of use.
 - Edge Case handling. Since this is *just a work progress*.
 
 #### ⭐️ Feel free to drop a star!
